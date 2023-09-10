@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandonPierce.Api", "LandonPierce.Api\LandonPierce.Api.csproj", "{C802EB45-1111-4D72-8B24-CB499CD9890B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LandonPierce.App", "LandonPierce.App\LandonPierce.App.csproj", "{32B56324-30AE-4811-A0F3-2EC348D21A7D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C802EB45-1111-4D72-8B24-CB499CD9890B} = {C802EB45-1111-4D72-8B24-CB499CD9890B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
